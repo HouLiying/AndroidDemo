@@ -13,7 +13,13 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/username" />
+        android:text="@string/username"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:shadowColor="@color/red"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -29,7 +35,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/et_password" />
+        android:id="@+id/et_password"
+        android:digits="0-9az"
+        android:hint="我要居中"/>
 
     <EditText
         android:layout_width="match_parent"
